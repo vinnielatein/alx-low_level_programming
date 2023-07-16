@@ -1,11 +1,11 @@
 #include <stdio.h>
 
 /**
- * main -entry point
+ * main - entry point
  *
- *Description: print all alphabet letters
+ * Description: print all alphabet letters
  *
- *Return: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
@@ -20,3 +20,4 @@ int main(void)
 	putchar('\n');
 
 	return (0);
+}
