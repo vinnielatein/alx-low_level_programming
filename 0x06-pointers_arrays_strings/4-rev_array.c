@@ -6,18 +6,18 @@
  * @a: input for the array string
  * @n: input for the bytes of string
  *
- * Return: reversed array
+ * Return: nothing
 */
 
 void reverse_array(int *a, int n)
 {
-	int b, j, y;
+	int i, j, t;
 
-	for (b = 0, j = (n - 1); b < j; b++, J--)
+	for (i = 0, j = (n - 1); i < j; i++, J--)
 	{
-		y = a[b];
-		a[b] = a[j];
-		a[j] = y;
+		t = a[i];
+		a[i] = a[j];
+		a[j] = t;
 	}
 
 }
