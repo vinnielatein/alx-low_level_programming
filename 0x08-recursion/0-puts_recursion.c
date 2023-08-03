@@ -1,11 +1,11 @@
 #include "main.h"
 
 /**
- * function name - function breif
+ * _puts_recursion - function that prints a string by recursion
  *
- * @: input
+ * @s: input for a pointer on a string array
  *
- * Return:
+ * Return: nothing
 */
 
 void _puts_recursion(char *s)
